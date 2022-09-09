@@ -1,0 +1,80 @@
+@media (max-width: 768px) {
+  .DesctopHeader {
+    display: none;
+  }
+}
+
+.DesctopHeader {
+  margin-top: -55px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 1500px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 40px;
+  padding-left: 40px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.DesctopHeaderMenu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 43px;
+  margin-top: 22px;
+}
+
+.DesctopHeaderMenu li {
+  margin-right: 30px;
+}
+
+.DesctopHeaderSearch {
+  max-width: 205px;
+}
+
+.DesctopSearch {
+  height: 80px;
+  width: 75%;
+  margin-top: 20px;
+  margin-left: 27px;
+  max-width: 205px;
+}
+
+.DesctopSearchForm {
+  height: 32px;
+  max-width: 205px;
+  border: solid 0.5px #DCDCDC;
+  border-radius: 5.5px;
+  font-family: 'Inter';
+  color: #696969;
+  font-size: 16x;
+  padding: 3px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-transition-duration: .5s;
+          transition-duration: .5s;
+  position: relative;
+  padding-left: 10px;
+}
+
+.DesctopSearchForm:focus {
+  outline: 0;
+  border-color: #808080;
+}
+
+.DesctopSearchButton {
+  position: absolute;
+  height: 24px;
+  width: 30px;
+  margin-top: -28px;
+  background-color: #F5F5F5;
+  border-radius: 5.5px;
+  border: none;
+  margin-left: 170px;
+}
+/*# sourceMappingURL=headerDesctop.css.map */
